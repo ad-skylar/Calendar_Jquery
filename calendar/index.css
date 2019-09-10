@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-size: 0.4rem; */
+}
+
+/* 日历 */
+
+
+
+.singer_r_img span{
+    margin-left:14px;
+    color:#623300;
+}
+
+
+.sign table{
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #503307;
+    background: #eecfcd;
+    border: 3px solid #eecfcd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.sign th,.sign td {
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border:1px solid #f1cdcf;
+    border-radius:6px;
+    background:#fff;
+}
+.sign th {
+    border-radius:6px;
+    background:#fff;
+}
+.sign td {
+    vertical-align: middle;
+    border-radius:3px;
+    background:#fff;
+    color: #a46626;
+    font-size: 13px;
+}   
+.sign .on {background-color:#dc7a14;}
+.calendar_month_next,.calendar_month_prev{
+    font-size:13px;
+    cursor: pointer;
+}
+.calendar_month_next {
+    float: right;
+}
+.calendar_month_span {
+    display: inline;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 13px;
+
+}
+.calendar_month_prev {
+    float: left;
+    background-position:-5px -6px;
+}
+.sign_succ_calendar_title {
+    color: #fff;
+    text-align: center;
+    background:#b6211b;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calenbox{
+    padding:3%;
+}
+
+
+.head-day{
+    justify-content: space-around;
+    background:#b6211b;
+    color: #fff;
+    border-top: 1px solid #f1cdcf;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.head-day>div{
+    border-right: 1px solid #552500;
+    padding-right: 12px;
+}
+.head-day>div:last-of-type{
+    border: 0;
+}
+.highlight{
+    position: relative;
+    z-index: 104;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 103;
+}
+.first-tip{
+    color: #fff;
+    position: absolute;
+    top: 22%;left: 49%;
+    opacity:0.9;
+    z-index:105;
+}
+.signed{
+    color: #ee2a1e!important;
+}
+
+
+/* 通用 */
+/** flex */
+.ui-flex { display: -webkit-box; display: -webkit-flex; display: flex; }
